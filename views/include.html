@@ -1,0 +1,608 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <script src="https://kit.fontawesome.com/9fe8afb7ed.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="new.css">
+</head>
+
+<body>
+    <!-- ***1st navbar*** -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div style="background-color: white;" class="container-fluid">
+            <img src="https://images.ctfassets.net/pdf29us7flmy/5J2rs0ZZWTETVNm1QHjtoQ/e468749383d76fce124244b30abe27a4/original.svg"
+                alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> &nbsp;
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"> &nbsp; Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  " href="#">Company reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Find salaries</a>
+                    </li>
+                </ul>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a style="font-weight: 400; color: #3F73D3;" class="navbar-brand underline" href="#"> sing
+                            in</a>
+                    </li>
+                    <li class="nav-item" style="font-size: larger;">|&nbsp;</li>
+                    <li class="nav-item">
+                        <a style="font-weight: 50; color: #070707;" class="navbar-brand underline" href="#">
+                            &nbsp;Employers / Post Job</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- *** 2nd navbar ** -->
+    <nav style="z-index: 1000; position: fixed; margin-top: 10px; background-color: #0D2D5E; "
+        class="container-fluid navbar navbar-expand-lg ">
+
+
+        <div class="container-fluid">
+            <button
+                style="margin:  -8px 10px -8px -20px; padding: 14px;color: white; background-color: #3F73D3; border-bottom-right-radius: 19px ;border-top-right-radius: 18px; font-weight: 500;">Career
+                Guide</button>
+
+            <a style="font-size: 13px; color: white;" class="navbar-brand underline" href="#">Finding a job</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <button style="background-color: #0D2D5E;" class="btn btn-dark dropdown-toggle"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Resumes & cover letters articles
+                        </button>
+                        <ul style=" background-color: #ffffff; " class="dropdown-menu dropdown-menu-dark">
+                            <li><a style="color: black;" class="dropdown-item" href="#">
+                                    Resumes & cover letters articles
+                                </a></li>
+                            <li><a style="color: black;" class="dropdown-item" href="#">
+                                    Resume samples
+                                </a></li>
+                            <li><a style="color: black;" class="dropdown-item" href="#">
+                                    Cover letter samples</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <a style="font-size: 13px; color: white;" class="navbar-brand underline" href="#">&nbsp;
+                    Interviewing</a>
+
+                <a style="font-size: 13px; color: white;" class="navbar-brand underline" href="#"> Pay & salary</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <button style="background-color: #0D2D5E;" class="btn btn-dark dropdown-toggle"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Career development articles
+
+                        </button>
+                        <ul style="background-color: #ffffff;" class="dropdown-menu dropdown-menu-dark">
+                            <li><a style="color: black;" class="dropdown-item" href="#">Career development articles
+                                </a></li>
+                            <li><a style="color: black;" class="dropdown-item" href="#"> Starting a new job
+                                </a></li>
+                            <li><a style="color: black;" class="dropdown-item" href="#"> Career paths
+                                </a></li>
+                        </ul>
+                        <a style="font-size: 14px; color: white;" class="navbar-brand underline" href="#">News</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- <div style=" text-underline-position: below;">
+            <form class="d-flex" role="search">
+                <div
+                    style="border-top: 2px solid rgb(255, 255, 255); width: 550px; position: relative; top: 35px; left: 200px;">
+                </div>
+                <i style="color: white; position: relative; top: 10px;" class="fa-solid fa-magnifying-glass"></i>
+                <input style="background-color: #0D2D5E; color: rgb(255, 255, 255); border: none; "
+                    class="search form-control me-2" type="search" placeholder=" Search articles" aria-label="Search">
+
+        </div> -->
+    </nav> <br><br> <br>
+    <!-- *** form **** -->
+    <div class="am1">
+        <a href="https://www.indeed.com/career-advice/finding-a-job">Career Guide</a>&nbsp; <i
+            class="fa-solid fa-greater-than"></i> &nbsp; Finding a job
+    </div> <br>
+    <div class="am2">
+        <h1 style="font-size: 36px; font-weight: 650;">Finding a job</h1>
+        <p>Career ideas and guidance to pick the right role for you.</p>
+    </div>
+    <!-- *** find **** -->
+    <div class="am3 text-center">
+        <img src="https://images.ctfassets.net/pdf29us7flmy/5J2rs0ZZWTETVNm1QHjtoQ/e468749383d76fce124244b30abe27a4/original.svg"
+            alt=" logo"> <br> <br>
+        <h1 style="font-size: 30px; font-weight: 500;">Search jobs and companies hiring now</h1><br>
+        <div class="am4">
+            <button
+                style="font-weight: 700; background-color: white; border-inline-color: #9FB9E9; padding: 10px 6px 8px 15px;">what
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa-solid fa-magnifying-glass"></i></button>
+            <button
+                style="font-weight: 700; background-color: white; border-inline-color: #9FB9E9; padding: 10px 200px 8px 15px;">where
+                &nbsp; <i class="fa-sharp fa-solid fa-location-dot"></i></button> &nbsp;&nbsp;
+            <button
+                style="background-color:#164081; font-weight: 900; border: none; color: white; padding: 12px;">Search</button>
+            <br>
+        </div>
+        <div class="amitku">
+            <p style="font-size: 25px;">Try these searches for jobs hiring now:</p>
+            <button> <i class="fa-solid fa-magnifying-glass"></i>&nbsp;lmmediately</button>
+            <button><i class="fa-solid fa-magnifying-glass"></i> &nbsp; Remote Jobs</button>
+            <button><i class="fa-solid fa-magnifying-glass"></i> &nbsp;Essentil businesses</button>&nbsp;
+            <button><i class="fa-solid fa-magnifying-glass"></i> &nbsp;Delivery driver</button>&nbsp;
+            <button><i class="fa-solid fa-magnifying-glass"></i> &nbsp; Amazon </button> <br> <br>&nbsp;
+            <button><i class="fa-solid fa-magnifying-glass"></i> &nbsp; Customer Service</button>&nbsp;
+            <button><i class="fa-solid fa-magnifying-glass"></i> &nbsp;Walmart </button>&nbsp;
+            <button><i class="fa-solid fa-magnifying-glass"></i> &nbsp;Storeshopper </button>&nbsp;
+            <button><i class="fa-solid fa-magnifying-glass"></i> &nbsp;Walgreens </button>&nbsp;
+            <button><i class="fa-solid fa-magnifying-glass"></i> &nbsp;Entry-level truck driver </button>&nbsp; <br>
+            <br>
+            <button><i class="fa-solid fa-magnifying-glass"></i> &nbsp; Nursing</button>&nbsp;
+            <button><i class="fa-solid fa-magnifying-glass"></i> &nbsp;Pharmacy</button>&nbsp;
+        </div>
+
+    </div> <br>
+    <!-- *** 1st card **** -->
+    <div class="container">
+        <h1 class="am6">Popular articles</h1>
+        <div class="row ">
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+                    <div class="img1">
+                        <img style=" border-radius: 17px;"
+                            src="https://images.ctfassets.net/pdf29us7flmy/15oQ2JIYhydw5FFX89zhis/70dfc967bfe63b4ff37691963149d7fa/5.svg?w=720&q=100&fm=avif"
+                            class="card-img" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; " class="navbar-brand underline"
+                            class="card-title" href="#">20 Ways
+                            To Make Money <br> From Home (Plus 42 More <br> WFH Ideas)</h1>
+                        <p class="card-text">Review 20 ways for making money from home, such as writing, testing
+                            websites or
+                            launching your own
+                            business, plus get 42 more ideas to provide extra income.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+                    <div class="img1">
+                        <img style=" border-radius: 17px;"
+                            src="https://images.ctfassets.net/pdf29us7flmy/32kBMgEItj3dYXAP88IYVR/5d207060c3ea5a1376c6eb0860ba82a6/1.svg?w=720&q=100&fm=avif"
+                            class="card-img" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; " class="navbar-brand underline "
+                            class="card-title" href="#">What
+                            Are the 16 Career <br> Clusters? Definition and <br> Guide</h1>
+                        <p class="card-text">Learn about the 16 career clusters and explore each cluster to learn about
+                            the
+                            career pathways and
+                            jobs it includes to help you pick a job.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+                    <div class="img1">
+                        <img style=" border-radius: 17px;"
+                            src="https://images.ctfassets.net/pdf29us7flmy/6dep4OlAtX9fJa97FBtGoI/7d946a01a8d0071069d720679dcb5388/finding-a-job-spot-1.svg?w=720&q=100&fm=avif"
+                            class="card-img" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; " class="navbar-brand underline "
+                            class="card-title" href="#">15 of
+                            the Best Jobs for <br>
+                            Teenagers To Consider for <br> the Future</h1>
+                        <p class="card-text">Learn about some of the best jobs for teens to pursue while they attend
+                            school
+                            including salary
+                            information
+                            and what makes these positions ideal for...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- *** 2nd Card ***** -->
+    <div class="container">
+        <h1 class="am6">Explore more articles</h1>
+        <div class="row ">
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+                    <div class="img1">
+                        <img style=" border-radius: 15px;"
+                            src="https://images.ctfassets.net/pdf29us7flmy/5totgvx59eGhEe82jewsF0/5217efcdef9807109ec2fb46c543e18e/3.svg?w=720&q=100&fm=avif"
+                            class="card-img" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px;" class="navbar-brand underline "
+                            class="card-title" href="#">What
+                            Is Scrum Project <br> Management? A Definitive <br> Guide</h1>
+                        <p class="card-text">Learn all about scrum project management, including why to use it, how it
+                            works and what some of the benefits are.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+                    <div class="img1">
+                        <img style=" border-radius: 15px;"
+                            src="https://images.ctfassets.net/pdf29us7flmy/5DSHSSwqPEvOaoe2S6Vp4H/0ffc7467a65ac15b8e4932ce850cb210/4.svg?w=720&q=100&fm=avif"
+                            class="card-img" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; " class="navbar-brand underline "
+                            class="card-title" href="#">How
+                            To Use the Work <br> Wellbeing Score on <br> Indeed Company Pages</h1>
+                        <p class="card-text">Find companies that align with your values by exploring the Work Happiness
+                            Score on Indeed.com..</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+                    <div class="img1">
+                        <img style="border-radius: 15px;"
+                            src="https://images.ctfassets.net/pdf29us7flmy/15oQ2JIYhydw5FFX89zhis/70dfc967bfe63b4ff37691963149d7fa/5.svg?w=720&q=100&fm=avif"
+                            class="card-img" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; " class="navbar-brand underline "
+                            class="card-title" href="#">What
+                            Is Hotshot Driving? <br> A Definitive Guide</h1>
+                        <p class="card-text">Learn about what hotshot driving is, why it's important, the types of
+                            vehicles hotshot truckers drive and the skills that may help them succeed...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- *** theori ***** -->
+    <div class="container">
+        <h1 class="am6">Recently published articles</h1>
+        <div class="row ">
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none; " class="card">
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; font-weight: 700;" class="navbar-brand underline "
+                            class="card-title" href="#">8
+                            High-Paying Food and <br> Beverage Jobs</h1>
+                        <p class="card-text">If you're considering a career in the food and beverage industry, you'll
+                            find a wide selection of job opportunities spanning from culinary arts to hospitality</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-weight: 700; font-size: 30px; "
+                            class="navbar-brand underline " class="card-title" href="#">10
+                            High-Paying Repair and <br> Maintenance Jobs</h1>
+                        <p class="card-text">Discover 10 rewarding repair and maintenance jobs with insights into their
+                            primary responsibilities and average salaries to guide you in your career exploration..</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-weight: 700; font-size: 30px; "
+                            class="navbar-brand underline " class="card-title" href="#">10
+                            High-Paying <br> Transportation Jobs (Plus <br> Duties and Salaries)</h1>
+                        <p class="card-text">Transportation careers often don't require extensive formal education, but
+                            they do require a keen understanding of logistics, safety regulation and operational
+                            efficiency. Discover 10 high-</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-weight: 700; font-size: 30px; "
+                            class="navbar-brand underline " class="card-title" href="#">How
+                            To Become an <br> Assistant Property <br> Manager</h1>
+                        <p class="card-text">In this article, we discuss how to become an assistant property manager,
+                            how much they earn and the skills required for this role.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-weight: 700; font-size: 30px; "
+                            class="navbar-brand underline " class="card-title" href="#">How
+                            To Become an <br> Accounting Assistant <br> (With Salary and Skills)</h1>
+                        <p class="card-text">In this article, we discuss how to become an accounting assistant, how much
+                            they earn and the skills required for this role..</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="font-weight: 700; border: none;" class="card">
+
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; " class="navbar-brand underline "
+                            class="card-title" href="#">What
+                            Does a Group Leader <br> Do? (With Salary and <br> Skills)</h1>
+                        <p class="card-text">In this article, we discuss the role of a group leader, how much they earn,
+                            the skills required for the job, and similar roles in this field.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+                    <div class="card-body">
+                        <h1 style=" font-size: 30px; " class="navbar-brand underline " class="card-title" href="#">How
+                            To Become a <br>Platform Engineer (With <br> Salary and Skills)</h1>
+
+                        <p class="card-text">In this article, we discuss how to become a platform engineer, how much
+                            they earn, and the skills required for this role.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+
+                    <div class="card-body">
+
+                        <h1 style=" font-size: 30px; " class="navbar-brand underline " class="card-title">How To Become
+                            a <br> Platform Engineer (With <br> Salary and Skills)</h1>
+                        <p class="card-text">In this article, we discuss how to become a platform engineer, how much
+                            they earn, and the skills required for this role.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+
+                    <div class="card-body">
+                        <h1 style=" font-size: 30px; " class="navbar-brand underline " class="card-title">How To Become
+                            a <br> Platform Engineer (With <br> Salary and Skills)</h1>
+                        <p class="card-text">In this article, we discuss how to become a platform engineer, how much
+                            they earn, and the skills required for this role.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; " class="navbar-brand underline "
+                            class="card-title">How To Become
+                            a <br> Platform Engineer (With <br> Salary and Skills)</h1>
+                        <p class="card-text">In this article, we discuss how to become a platform engineer, how much
+                            they earn, and the skills required for this role.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; " class="navbar-brand underline "
+                            class="card-title">How To Become
+                            a <br> Platform Engineer (With <br> Salary and Skills)</h1>
+                        <p class="card-text">In this article, we discuss how to become a platform engineer, how much
+                            they earn, and the skills required for this role.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; " class="navbar-brand underline "
+                            class="card-title">How To Become
+                            a <br> Platform Engineer (With <br> Salary and Skills)</h1>
+                        <p class="card-text">In this article, we discuss how to become a platform engineer, how much
+                            they earn, and the skills required for this role.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; " class="navbar-brand underline "
+                            class="card-title">How To Become
+                            a <br> Platform Engineer (With <br> Salary and Skills)</h1>
+                        <p class="card-text">In this article, we discuss how to become a platform engineer, how much
+                            they earn, and the skills required for this role.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; " class="navbar-brand underline "
+                            class="card-title">How To Become
+                            a <br> Platform Engineer (With <br> Salary and Skills)</h1>
+                        <p class="card-text">In this article, we discuss how to become a platform engineer, how much
+                            they earn, and the skills required for this role.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; " class="navbar-brand underline "
+                            class="card-title">How To Become
+                            a <br> Platform Engineer (With <br> Salary and Skills)</h1>
+                        <p class="card-text">In this article, we discuss how to become a platform engineer, how much
+                            they earn, and the skills required for this role.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; " class="navbar-brand underline "
+                            class="card-title">How To Become
+                            a <br> Platform Engineer (With <br> Salary and Skills)</h1>
+                        <p class="card-text">In this article, we discuss how to become a platform engineer, how much
+                            they earn, and the skills required for this role.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; " class="navbar-brand underline "
+                            class="card-title">How To Become
+                            a <br> Platform Engineer (With <br> Salary and Skills)</h1>
+                        <p class="card-text">In this article, we discuss how to become a platform engineer, how much
+                            they earn, and the skills required for this role.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; " class="navbar-brand underline "
+                            class="card-title">How To Become
+                            a <br> Platform Engineer (With <br> Salary and Skills)</h1>
+                        <p class="card-text">In this article, we discuss how to become a platform engineer, how much
+                            they earn, and the skills required for this role.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; " class="navbar-brand underline "
+                            class="card-title">How To Become
+                            a <br> Platform Engineer (With <br> Salary and Skills)</h1>
+                        <p class="card-text">In this article, we discuss how to become a platform engineer, how much
+                            they earn, and the skills required for this role.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; " class="navbar-brand underline "
+                            class="card-title">How To Become
+                            a <br> Platform Engineer (With <br> Salary and Skills)</h1>
+                        <p class="card-text">In this article, we discuss how to become a platform engineer, how much
+                            they earn, and the skills required for this role.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 mb-3 mb-sm-12">
+                <div style="border: none;" class="card">
+
+                    <div class="card-body">
+                        <h1 style="font-weight: 700; font-size: 30px; " class="navbar-brand underline "
+                            class="card-title">How To Become
+                            a <br> Platform Engineer (With <br> Salary and Skills)</h1>
+                        <p class="card-text">In this article, we discuss how to become a platform engineer, how much
+                            they earn, and the skills required for this role.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- *** Number Buttons ***** -->
+    <div class="am9">
+        <button style="background-color:#164081; color: white;">1</button>&nbsp;&nbsp;
+        <button type="button" class="btn btn-outline-light">2</button>&nbsp;&nbsp;
+        <button type="button" class="btn btn-outline-light">3</button>&nbsp;&nbsp;
+        <button type="button" class="btn btn-outline-light">4</button>&nbsp;&nbsp;
+        <button type="button" class="btn btn-outline-light">5</button> &nbsp;&nbsp;
+        <button type="button" class="btn btn-outline-light" style="border: none;"><i
+                class="fa-solid fa-greater-than"></i></button>
+    </div> <br>
+    <!-- ** End **** -->
+    <div class="am8">
+        <p>Hiring Lab&nbsp; &nbsp;&nbsp;Career advice&nbsp;&nbsp;&nbsp;Browse Jobs&nbsp;&nbsp;&nbsp;Browse
+            Companies&nbsp;&nbsp;&nbsp;
+            Salaries&nbsp;&nbsp;&nbsp;Salaries&nbsp;&nbsp;&nbsp;Indeed Events&nbsp;&nbsp;&nbsp;Work at Indeed&nbsp;
+            &nbsp;&nbsp;Countries&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp; Help
+            Center&nbsp;&nbsp;&nbsp; ESG at Indeed</p>
+    </div>
+    <div class="am8">
+        <p>© 2024 Indeed &nbsp;&nbsp;&nbsp;Your Privacy Choices&nbsp;&nbsp; &nbsp;&nbsp;Accessibility at
+            Indeed&nbsp;&nbsp;&nbsp;Privacy Center and Ad
+            Choices&nbsp;&nbsp;&nbsp;Terms</p>
+    </div>
+    <div style=" background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%); padding-bottom: 20px; padding-top: 25px; text-align: center; margin-bottom: 30px;">
+        <button type="button" class="btn btn-outline-danger"><i>Amit Kumar</i></button>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
